@@ -1,7 +1,7 @@
 # csharp-course
 
 - Db Connectors
-  - [Ado.Net](#Ado.Net)
+  - [Ado.Net](#ado.net)
   - [Dapper](#Dapper)
   - [EF Core](#EFCore)
  
