@@ -109,11 +109,6 @@ namespace csharp_course
 
             connection.Close();
 
-            //DataSet
-            //DataTable
-            //DataRow
-            //DataColumn
-
             foreach (DataRow dr in dt.Rows)
             {
                 Console.WriteLine($"Blog Id => {dr["BlogId"].ToString()}");
