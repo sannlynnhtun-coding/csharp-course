@@ -64,6 +64,11 @@ In C#, ADO.NET provides a robust framework for performing CRUD (Create, Read, Up
 ADO.NET provides a flexible and powerful way to interact with databases in C#, allowing you to implement CRUD operations efficiently and securely in your applications.
 
 ## AdoDotNet:
+
+Open a terminal and install them with this command.
+```csharp
+dotnet add package System.Data.SqlClient
+```
   
 ```csharp
 using System;
