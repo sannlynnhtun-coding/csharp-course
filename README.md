@@ -1,4 +1,4 @@
-# csharp-course
+# C# Course
 
 - Db Connectors
   - [Ado.Net](#adodotnet)
