@@ -215,6 +215,8 @@ namespace csharp_course
 ```
 ## Dapper:
 
+> Dapper is an object–relational mapping product for the Microsoft .NET platform: it provides a framework for mapping an object-oriented domain model to a traditional relational database. Its purpose is to relieve the developer from a significant portion of relational data persistence-related programming tasks.
+
 Open a terminal and install them with this command.
 ```csharp
 dotnet add package Dapper
