@@ -213,3 +213,125 @@ namespace csharp_course
     }
 }
 ```
+## Dapper:
+
+Open a terminal and install them with this command.
+```csharp
+dotnet add package Dapper
+```
+  
+```csharp
+using System;
+using System.Collections.Generic;
+using System.Data.SqlClient;
+using System.Data;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using Dapper;
+using MMYDotNetCore.ConsoleApp.Models;
+using System.Reflection.Metadata;
+
+namespace csharp_course
+{
+    public class DapperExample
+    {
+        private readonly SqlConnectionStringBuilder sqlConnectionStringBuilder = new SqlConnectionStringBuilder
+        {
+            DataSource = ".", //server name (local)
+            InitialCatalog = "TestDb", //db name
+            UserID = "sa", //user name
+            Password = "sa@123" //sa@123
+        };
+
+        public void Run()
+        {
+            Read();
+            Create("title1", "author1", "content1");
+            Edit(2);
+            Update(2, "title2", "author2", "content2");
+            Delete(1);
+        }
+
+        public void Read()
+        {
+            using IDbConnection connection = new SqlConnection(sqlConnectionStringBuilder.ConnectionString);
+            string query = "select * from tbl_blog";
+            List<BlogModel> lst = connection.Query<BlogModel>(query).ToList();
+
+            foreach (BlogModel item in lst)
+            {
+                Console.WriteLine($"Blog Id => {item.BlogId}");
+                Console.WriteLine($"Blog Title => {item.BlogTitle}");
+                Console.WriteLine($"Blog Author => {item.BlogAuthor}");
+                Console.WriteLine($"Blog Content => {item.BlogContent}");
+            }
+        }
+
+        public void Edit(int id)
+        {
+            string query = "select * from tbl_blog where BlogId=@BlogId";
+            using IDbConnection connection = new SqlConnection(sqlConnectionStringBuilder.ConnectionString);
+            var item = connection.Query<BlogModel>(query, new { BlogId = id }).FirstOrDefault();
+
+            Console.WriteLine($"Blog Id => {item.BlogId}");
+            Console.WriteLine($"Blog Title => {item.BlogTitle}");
+            Console.WriteLine($"Blog Author => {item.BlogAuthor}");
+            Console.WriteLine($"Blog Content => {item.BlogContent}");
+        }
+
+        public void Create(string title, string author, string content)
+        {
+            string query = @"INSERT INTO [dbo].[Tbl_Blog]
+           ([BlogTitle]
+           ,[BlogAuthor]
+           ,[BlogContent])
+     VALUES
+           (@BlogTitle
+           ,@BlogAuthor
+           ,@BlogContent)";
+            using IDbConnection connection = new SqlConnection(sqlConnectionStringBuilder.ConnectionString);
+            int result = connection.Execute(query, new BlogModel
+            {
+                BlogTitle = title,
+                BlogAuthor = author,
+                BlogContent = content
+            });
+
+            string message = result > 0 ? "Saving Successful.!" : "Saving Failed.";
+            Console.WriteLine(message);
+        }
+
+        public void Update(int id, string title, string author, string content)
+        {
+            string query = @"UPDATE [dbo].[Tbl_Blog]
+   SET [BlogTitle] = @BlogTitle
+      ,[BlogAuthor] = @BlogAuthor
+      ,[BlogContent] = @BlogContent
+ WHERE BlogId = @BlogId";
+            using IDbConnection connection = new SqlConnection(sqlConnectionStringBuilder.ConnectionString);
+            var result = connection.Execute(query, new BlogModel
+            {
+                BlogId = id,
+                BlogTitle = title,
+                BlogAuthor = author,
+                BlogContent = content
+            });
+            string message = result > 0 ? "Updating Successful.!" : "Updating Failed.";
+            Console.WriteLine(message);
+        }
+
+        public void Delete(int id)
+        {
+            string query = "delete from tbl_blog where blogId = @BlogId";
+            using IDbConnection connection = new SqlConnection(sqlConnectionStringBuilder.ConnectionString);
+            var result = connection.Execute(query, new
+            {
+                BlogId = id
+            });
+            string message = result > 0 ? "Deleting Successful.!" : "Deleting Failed.";
+            Console.WriteLine(message);
+        }
+    }
+}
+```
