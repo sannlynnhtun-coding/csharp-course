@@ -5,7 +5,7 @@
   - [Dapper](#Dapper)
   - [EF Core](#EFCore)
  
-## Ado Dot Net:
+## AdoDotNet:
   
 ```csharp
   
