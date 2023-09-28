@@ -4,8 +4,60 @@
   - [Ado.Net](#AdoDotNet)
   - [Dapper](#Dapper)
   - [EF Core](#EFCore)
+  
+- Asp.Net Core Web Api (Rest Api)
+  - [Rest Api with Ado.Net](#)
+  - [Rest Api with Dapper](#)
+  - [Rest Api with Ef Core](#)
+  - [Rest Api with PostMan](#)
+ 
+- Api Call With (Conolse Application)
+   - [HttpClient](#)
+   - [RestClient](#)
+   - [Refit](#)
+ 
+- MVC With Asp.Net Core
+  -  [Ado.Net](#)
+  -   [Dapper](#)
+  -   [EF Core](#)
 
+- MVC With Api Call
+  - [HttpClient](#)
+  - [RestClient](#)
+  - [Refit](#)
+    
+- [Minimal Api](#)
+  
+- Text Logging With Serilog
+   - [Conosole App](#)
+   - [Web App](#)
 
+ - Db Logging With Serilog
+    - [](#)
+  
+  - Chart
+    - [ApexChart](#)
+    - [ChartJs](#)
+    - [HighCharts](#)
+    - [CanvasJS](#)
+   
+  - SignalR
+     - [Insert Data => UpdateChart, Chat Message]
+   
+  - UI Desgin
+
+  - Blazor CRUD [Server, WASM]
+
+  - Deploy WASM
+
+  - Deploy on IIS
+
+  - Middleware For MVC
+
+  - GraphQL
+
+  - gRPC
+  
 #### DataSet
 > Dataset is the local copy of your database which exists in the local system and makes the application execute faster and reliable. DataSet works like a real database with an entire set of data which includes the constraints, relationship among tables, and so on. It will be found in the namespace “System. Data”.
 
