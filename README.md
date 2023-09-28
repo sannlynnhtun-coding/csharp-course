@@ -1,7 +1,7 @@
 # C# Course
 
 - Db Connectors
-  - [Ado.Net](#adodotnet)
+  - [Ado.Net](#AdoDotNet)
   - [Dapper](#Dapper)
   - [EF Core](#EFCore)
 
