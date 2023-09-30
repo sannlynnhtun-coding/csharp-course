@@ -389,3 +389,108 @@ namespace csharp_course
     }
 }
 ```
+##Entity
+>Entity framework is an Object Relational Mapping (ORM) framework that gives developers an automated way to store and access databases.
+Open a terminal and install them with this command.
+```csharp
+dotnet add package Microsoft.EntityFrameworkCore
+dotnet add package Microsoft.EntityFrameworkCore.SqlServer 
+```
+```csharp
+using Microsoft.Data.SqlClient;
+using Microsoft.EntityFrameworkCore.Storage;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace csharp_course
+{
+    public class EntityExample
+    {
+        public void Run()
+        {
+            Read();
+            Edit(1);
+            Create();
+            Update(1);
+            Delete(2);
+        }
+        private void Read()
+        {
+            var db = new AppDbContext();
+            var lst = db.Blogs.ToList();
+            var count = lst.Count();
+            foreach (var item in lst)
+            {
+                Console.WriteLine(item.BlogId);
+                Console.WriteLine(item.BlogTitle);
+                Console.WriteLine(item.BlogAuthor);
+                Console.WriteLine(item.BlogContent);
+            }
+        }
+
+        private void Edit(int id)
+        {
+            var db = new AppDbContext();
+            var item = db.Blogs.FirstOrDefault(x => x.BlogId == id);
+            if (item == null)
+            {
+                Console.WriteLine("There is no data here");
+            }
+            Console.WriteLine(item.BlogId);
+            Console.WriteLine(item.BlogTitle);
+            Console.WriteLine(item.BlogAuthor);
+            Console.WriteLine(item.BlogContent);
+        }
+
+        private void Create()
+        {
+            var db = new AppDbContext();
+            var blogModel = new BlogModel()
+            {
+                BlogAuthor = "A",
+                BlogContent = "A",
+                BlogTitle = "A",
+            };
+            db.Blogs.Add(blogModel);
+            var result = db.SaveChanges();
+            var message = result > 0 ? "Saving Successful" : "Saving Unsuccessful";
+            Console.WriteLine(message);
+        }
+
+        private void Update(int id)
+        {
+            var db = new AppDbContext();
+            var item = db.Blogs.FirstOrDefault(x => x.BlogId == id);
+            if (item == null)
+            {
+                Console.WriteLine("There is no data here");
+            }
+            item.BlogTitle = "new Title";
+            item.BlogAuthor = "new Author";
+            item.BlogContent = "new Content";
+            var result = db.SaveChanges();
+            var message = result > 0 ? "Update Successful" : "Update Unsuccessful";
+            Console.WriteLine(message);
+
+        }
+
+        private void Delete(int id)
+        {
+            var db = new AppDbContext();
+            var item = db.Blogs.FirstOrDefault(x => x.BlogId == id);
+            if (item == null)
+            {
+                Console.WriteLine("There is no data here");
+            }
+            db.Blogs.Remove(item);
+            var result = db.SaveChanges();
+            var message = result > 0 ? "Delete Successful" : "Delete Unsuccessful";
+            Console.WriteLine(message);
+
+        }
+    }
+}
+```
