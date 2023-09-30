@@ -33,7 +33,8 @@
    - [Web App](#)
 
  - Db Logging With Serilog
-    - [](#)
+   - [Conosole App](#)
+   - [Web App](#)
   
   - Chart
     - [ApexChart](#)
