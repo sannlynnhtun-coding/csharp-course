@@ -389,13 +389,16 @@ namespace csharp_course
     }
 }
 ```
-## EF Core:
->Entity framework is an Object Relational Mapping (ORM) framework that gives developers an automated way to store and access databases.
+## EFCore:
+
+> Entity framework is an Object Relational Mapping (ORM) framework that gives developers an automated way to store and access databases.
+
 Open a terminal and install them with this command.
 ```csharp
 dotnet add package Microsoft.EntityFrameworkCore
 dotnet add package Microsoft.EntityFrameworkCore.SqlServer 
 ```
+
 ```csharp
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore.Storage;
