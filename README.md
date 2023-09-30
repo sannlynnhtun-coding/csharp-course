@@ -74,33 +74,16 @@
 In C#, ADO.NET provides a robust framework for performing CRUD (Create, Read, Update, Delete) operations on a relational database. Here's a summary of how you can use ADO.NET to implement CRUD operations:
 
 1. **Create (INSERT)**:
-   - To insert data into a database using ADO.NET, you typically start by creating a connection to the database using a connection string.
-   - You then create an SQL INSERT command or a stored procedure that specifies the data to be inserted.
-   - Create and open a `SqlConnection` to connect to the database.
-   - Create a `SqlCommand` object with the INSERT command and associate it with the connection.
-   - Set any parameters required for the INSERT operation, providing values for the new record.
-   - Execute the command using `ExecuteNonQuery()` to insert the data into the database.
+   - To insert data into a database using ADO.NET, establish a connection, create an INSERT command with parameters, associate it with a SqlConnection, set values, and execute it using ExecuteNonQuery().
 
 2. **Read (SELECT)**:
-   - To retrieve data from a database using ADO.NET, again, create a connection to the database.
-   - Create an SQL SELECT command or a stored procedure to fetch the desired data.
-   - Create a `SqlCommand` object with the SELECT command and associate it with the connection.
-   - Use a `SqlDataReader` or `SqlDataAdapter` to execute the command and retrieve the data.
-   - Iterate through the results to read and process the retrieved data.
+   - To get data from a database with ADO.NET, connect to the database, create a SQL SELECT command associated with a SqlCommand object, execute it using SqlDataReader or SqlDataAdapter, and then process the retrieved data.
 
 3. **Update (UPDATE)**:
-   - To update existing data in a database using ADO.NET, establish a database connection.
-   - Create an SQL UPDATE command or a stored procedure that specifies the data to be modified.
-   - Create a `SqlCommand` object with the UPDATE command and associate it with the connection.
-   - Set parameters for the UPDATE operation, including the new values and a condition to identify the record to update.
-   - Execute the command using `ExecuteNonQuery()` to apply the changes to the database.
+   - To update data in a database using ADO.NET, connect to the database, create an SQL UPDATE command, link it to a `SqlCommand` object, set parameters for the update, and execute the command with `ExecuteNonQuery()` to make the changes in the database.
 
 4. **Delete (DELETE)**:
-   - For deleting data in a database, as usual, create a connection.
-   - Construct an SQL DELETE command or use a stored procedure to specify the record(s) to be deleted.
-   - Create a `SqlCommand` object with the DELETE command and associate it with the connection.
-   - Set any necessary parameters, such as conditions for deletion.
-   - Execute the command with `ExecuteNonQuery()` to remove the data from the database.
+   - To delete data from a database using ADO.NET, connect to the database, create an SQL DELETE command with a SqlCommand object, set any necessary parameters for deletion, and execute the command using ExecuteNonQuery() to remove the data.
 
 5. **Error Handling and Exception Handling**:
    - Proper error handling is crucial in ADO.NET to manage exceptions that may occur during database operations. Use try-catch blocks to handle exceptions and ensure that resources are properly disposed of in the event of an error.
