@@ -9,7 +9,7 @@
   - [Rest Api with Ado.Net](#)
   - [Rest Api with Dapper](#)
   - [Rest Api with Ef Core](#)
-  - [Rest Api with PostMan](#)
+  - [Rest Api with Postman](#)
  
 - Api Call With (Conolse Application)
    - [HttpClient](#)
@@ -18,8 +18,8 @@
  
 - MVC With Asp.Net Core
   -  [Ado.Net](#)
-  -   [Dapper](#)
-  -   [EF Core](#)
+  -  [Dapper](#)
+  -  [EF Core](#)
 
 - MVC With Api Call
   - [HttpClient](#)
