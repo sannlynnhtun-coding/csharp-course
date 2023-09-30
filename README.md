@@ -389,7 +389,7 @@ namespace csharp_course
     }
 }
 ```
-##Entity
+## EF Core:
 >Entity framework is an Object Relational Mapping (ORM) framework that gives developers an automated way to store and access databases.
 Open a terminal and install them with this command.
 ```csharp
