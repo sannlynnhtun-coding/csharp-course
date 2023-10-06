@@ -512,14 +512,14 @@ namespace csharp_course
             });
             await Delete(7);
 
-            await Update(1013, new BlogModel
+            await Update(10, new BlogModel
             {
                 BlogAuthor = "new test",
                 BlogContent = "new test",
                 BlogTitle = "new test",
             });
 
-            await PatchUpdate(1013, new BlogModel
+            await PatchUpdate(10, new BlogModel
             {
                 BlogAuthor = " test",
                 BlogContent = "new test",
