@@ -481,3 +481,135 @@ namespace csharp_course
     }
 }
 ```
+## HttpClient:
+> HttpClient is a class in the . NET framework used for sending HTTP requests and receiving HTTP responses from a resource identified by a URI. It provides a convenient way to make     HTTP requests from . NET applications and can be used to perform various operations such as sending GET, POST, PUT, DELETE requests, etc.
+
+```csharp
+using Newtonsoft.Json;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Text.Json.Serialization;
+using System.Threading.Tasks;
+using static System.Net.Mime.MediaTypeNames;
+
+namespace csharp_course
+{
+    public class HttpClienttExample
+    {
+        public async Task Run()
+        {
+            await Read(1, 5);
+            await Read(2, 5);
+            await Edit(1);
+
+            await Create(new BlogModel
+            {
+                BlogAuthor = "test",
+                BlogContent = "test",
+                BlogTitle = "test",
+            });
+            await Delete(7);
+            await Update(1013, new BlogModel
+            {
+                BlogAuthor = "new test",
+                BlogContent = "new test",
+                BlogTitle = "new test",
+            });
+        }
+
+        //Read
+        private async Task Read(int pageNo, int pageSize) //pageNo and pageSize is for pagination
+        {
+            HttpClient client = new HttpClient();
+            HttpResponseMessage response = await client.GetAsync($"https://localhost:44357/api/blog/{pageNo}/{pageSize}");
+            if (response.IsSuccessStatusCode)
+            {
+                var jsonStr = await response.Content.ReadAsStringAsync();
+                List<BlogModel> lst = JsonConvert.DeserializeObject<List<BlogModel>>(jsonStr); // json to c# object
+
+                Console.WriteLine(JsonConvert.SerializeObject(lst, Formatting.Indented));
+            }
+        }
+
+        //Edit
+        private async Task Edit(int id)
+        {
+            HttpClient client = new HttpClient();
+            HttpResponseMessage response = await client.GetAsync($"https://localhost:44357/api/blog/{id}");
+            if (response.IsSuccessStatusCode)
+            {
+                var jsonStr = await response.Content.ReadAsStringAsync();
+                BlogResponseModel responseModel = JsonConvert.DeserializeObject<BlogResponseModel>(jsonStr); // json to c# object
+                if (responseModel.IsSuccess)
+                {
+                    Console.WriteLine(responseModel.Message);
+                    Console.WriteLine(JsonConvert.SerializeObject(responseModel.Data, Formatting.Indented));
+                }
+            }
+            else
+            {
+                var jsonStr = await response.Content.ReadAsStringAsync();
+                BlogResponseModel responseModel = JsonConvert.DeserializeObject<BlogResponseModel>(jsonStr); // json to c# object
+                Console.WriteLine(responseModel.Message);
+            }
+        }
+
+        //Create
+        private async Task Create(BlogModel blog)
+        {
+            HttpClient client = new HttpClient();
+
+            var jsonBlog = JsonConvert.SerializeObject(blog);
+            HttpContent content = new StringContent(jsonBlog, Encoding.UTF8, Application.Json);
+
+            var response = await client.PostAsync("https://localhost:44357/api/blog", content);
+            if (response.IsSuccessStatusCode)
+            {
+                var jsonStr = await response.Content.ReadAsStringAsync();
+                //Console.WriteLine(jsonStr);
+                BlogResponseModel responseModel = JsonConvert.DeserializeObject<BlogResponseModel>(jsonStr); // json to c# object
+                if (responseModel.IsSuccess)
+                {
+                    Console.WriteLine(responseModel.Message);
+                    Console.WriteLine(JsonConvert.SerializeObject(responseModel.Data, Formatting.Indented));
+                }
+            }
+        }
+
+        //Update
+        private async Task Update(int id, BlogModel blog)
+        {
+            HttpClient client = new HttpClient();
+            var jsonBlog = JsonConvert.SerializeObject(blog);
+            HttpContent content = new StringContent(jsonBlog, Encoding.UTF8, Application.Json);
+            var response = await client.PutAsync($"https://localhost:44357/api/blog/{id}", content);
+            if (response.IsSuccessStatusCode)
+            {
+                var jsonStr = await response.Content.ReadAsStringAsync();
+                BlogResponseModel responseModel = JsonConvert.DeserializeObject<BlogResponseModel>(jsonStr);
+                if (responseModel.IsSuccess)
+                {
+                    Console.WriteLine(responseModel.Message);
+                    Console.WriteLine(JsonConvert.SerializeObject(responseModel.Data, Formatting.Indented));
+                }
+            }
+        }
+
+        //Delete
+        private async Task Delete(int id)
+        {
+            HttpClient client = new HttpClient();
+            HttpResponseMessage response = await client.DeleteAsync($"https://localhost:44357/api/blog/{id}");
+
+            var jsonStr = await response.Content.ReadAsStringAsync();
+            BlogResponseModel responseModel = JsonConvert.DeserializeObject<BlogResponseModel>(jsonStr);
+
+            Console.WriteLine(responseModel.Message);
+        }
+    }
+
+}
+```
+
