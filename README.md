@@ -12,7 +12,7 @@
   - [Rest Api with Postman](#)
  
 - Api Call With (Conolse Application)
-   - [HttpClient](#)
+   - [HttpClient](#HttpClient)
    - [RestClient](#)
    - [Refit](#)
  
@@ -511,16 +511,24 @@ namespace csharp_course
                 BlogTitle = "test",
             });
             await Delete(7);
+
             await Update(1013, new BlogModel
             {
                 BlogAuthor = "new test",
                 BlogContent = "new test",
                 BlogTitle = "new test",
             });
+
+            await PatchUpdate(1013, new BlogModel
+            {
+                BlogAuthor = " test",
+                BlogContent = "new test",
+                BlogTitle = "new test",
+            });
         }
 
         //Read
-        private async Task Read(int pageNo, int pageSize) //pageNo and pageSize is for pagination
+        private async Task Read(int pageNo, int pageSize) //pageNo and pageSize is for pageSize
         {
             HttpClient client = new HttpClient();
             HttpResponseMessage response = await client.GetAsync($"https://localhost:44357/api/blog/{pageNo}/{pageSize}");
@@ -595,6 +603,26 @@ namespace csharp_course
                     Console.WriteLine(JsonConvert.SerializeObject(responseModel.Data, Formatting.Indented));
                 }
             }
+        }
+
+        // Patch Update
+        private async Task PatchUpdate(int id, BlogModel blog)
+        {
+            HttpClient client = new HttpClient();
+            var jsonBlog = JsonConvert.SerializeObject(blog);
+            HttpContent content = new StringContent(jsonBlog, Encoding.UTF8, Application.Json);
+            var response = await client.PatchAsync($"https://localhost:44357/api/blog/{id}", content);
+            if (response.IsSuccessStatusCode)
+            {
+                var jsonStr = await response.Content.ReadAsStringAsync();
+                BlogResponseModel responseModel = JsonConvert.DeserializeObject<BlogResponseModel>(jsonStr);
+                if (responseModel.IsSuccess)
+                {
+                    Console.WriteLine(responseModel.Message);
+                    Console.WriteLine(JsonConvert.SerializeObject(responseModel.Data, Formatting.Indented));
+                }
+            }
+
         }
 
         //Delete
