@@ -461,7 +461,6 @@ namespace csharp_course
             var result = db.SaveChanges();
             var message = result > 0 ? "Update Successful" : "Update Unsuccessful";
             Console.WriteLine(message);
-
         }
 
         private void Delete(int id)
@@ -476,7 +475,6 @@ namespace csharp_course
             var result = db.SaveChanges();
             var message = result > 0 ? "Delete Successful" : "Delete Unsuccessful";
             Console.WriteLine(message);
-
         }
     }
 }
@@ -622,7 +620,6 @@ namespace csharp_course
                     Console.WriteLine(JsonConvert.SerializeObject(responseModel.Data, Formatting.Indented));
                 }
             }
-
         }
 
         //Delete
@@ -637,7 +634,6 @@ namespace csharp_course
             Console.WriteLine(responseModel.Message);
         }
     }
-
 }
 ```
 
