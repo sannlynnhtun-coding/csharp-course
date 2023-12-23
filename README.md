@@ -525,7 +525,7 @@ namespace csharp_course
             });
         }
 
-        //Read
+        // Read
         private async Task Read(int pageNo, int pageSize) //pageNo and pageSize is for pageSize
         {
             HttpClient client = new HttpClient();
@@ -539,7 +539,7 @@ namespace csharp_course
             }
         }
 
-        //Edit
+        // Edit
         private async Task Edit(int id)
         {
             HttpClient client = new HttpClient();
@@ -562,7 +562,7 @@ namespace csharp_course
             }
         }
 
-        //Create
+        // Create
         private async Task Create(BlogModel blog)
         {
             HttpClient client = new HttpClient();
@@ -584,7 +584,7 @@ namespace csharp_course
             }
         }
 
-        //Update
+        // Update
         private async Task Update(int id, BlogModel blog)
         {
             HttpClient client = new HttpClient();
@@ -603,7 +603,7 @@ namespace csharp_course
             }
         }
 
-        // Patch Update
+        // Patch
         private async Task PatchUpdate(int id, BlogModel blog)
         {
             HttpClient client = new HttpClient();
@@ -622,7 +622,7 @@ namespace csharp_course
             }
         }
 
-        //Delete
+        // Delete
         private async Task Delete(int id)
         {
             HttpClient client = new HttpClient();
