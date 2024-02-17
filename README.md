@@ -5,13 +5,13 @@
   - [Dapper](#Dapper)
   - [EF Core](#EFCore)
   
-- ASP.Net Core Web Api (REST/RESTful Api)
+- ASP.Net Core Web API (REST/RESTful API)
   - [Rest Api with Ado.Net](#)
   - [Rest Api with Dapper](#)
   - [Rest Api with Ef Core](#)
   - [Rest Api with Postman](#)
  
-- Api Call With (Conolse Application)
+- Conolse Application (Client) connect with ASP.Net Core Web API (Server)
    - [HttpClient](#HttpClient)
    - [RestClient](#)
    - [Refit](#)
