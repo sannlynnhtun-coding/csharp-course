@@ -16,17 +16,18 @@
    - [RestClient](#)
    - [Refit](#)
  
-- ASP.Net Core MVC
+- ASP.NET Core Web MVC
   -  [Ado.Net](#)
   -  [Dapper](#)
   -  [EF Core](#)
 
-- MVC With Api Call
+- ASP.NET Core Web MVC (Client) connect with ASP.Net Core Web API (Server)
   - [HttpClient](#)
   - [RestClient](#)
   - [Refit](#)
     
-- [Minimal Api](#)
+- ASP.NET Core Web Minimal API (like Express.js)
+  - [Minimal Api](#)
   
 - Text Logging With Serilog
    - [Conosole App](#)
