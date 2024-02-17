@@ -11,7 +11,7 @@
   - [Rest Api with Ef Core](#)
   - [Rest Api with Postman](#)
  
-- Conolse Application (Client) connect with ASP.Net Core Web API (Server)
+- Console Application (Client) connect with ASP.Net Core Web API (Server)
    - [HttpClient](#HttpClient)
    - [RestClient](#)
    - [Refit](#)
