@@ -5,7 +5,7 @@
   - [Dapper](#Dapper)
   - [EF Core](#EFCore)
   
-- Asp.Net Core Web Api (Rest Api)
+- ASP.Net Core Web Api (REST/RESTful Api)
   - [Rest Api with Ado.Net](#)
   - [Rest Api with Dapper](#)
   - [Rest Api with Ef Core](#)
@@ -16,7 +16,7 @@
    - [RestClient](#)
    - [Refit](#)
  
-- MVC With Asp.Net Core
+- ASP.Net Core MVC
   -  [Ado.Net](#)
   -  [Dapper](#)
   -  [EF Core](#)
