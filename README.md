@@ -43,9 +43,10 @@
     - [HighCharts](#)
     - [CanvasJS](#)
    
-  - SignalR
-     - [Insert Data => UpdateChart, Chat Message]
-   
+  - SignalR (Websocket)
+     - [Realtime Chart](#)
+     - [Realtime Chat](#)
+
   - UI Desgin
 
   - Blazor CRUD [Server, WASM]
