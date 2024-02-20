@@ -1,7 +1,7 @@
 # C# Course
 
 - Db Connectors
-  - [Ado.Net](#AdoDotNet)
+  - [Ado.Net](#Ado.Net)
   - [Dapper](#Dapper)
   - [EF Core](#EFCore)
   
@@ -101,7 +101,7 @@ In C#, ADO.NET provides a robust framework for performing CRUD (Create, Read, Up
 
 ADO.NET provides a flexible and powerful way to interact with databases in C#, allowing you to implement CRUD operations efficiently and securely in your applications.
 
-## AdoDotNet:
+## Ado.Net:
 
 Open a terminal and install them with this command.
 ```csharp
