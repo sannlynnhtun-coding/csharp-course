@@ -1,4 +1,4 @@
-# C# Course
+# [C# Course](https://github.com/sannlynnhtun-coding/csharp-course/wiki)
 
 - Db Connectors
   - [Ado.Net](#AdoDotNet)
