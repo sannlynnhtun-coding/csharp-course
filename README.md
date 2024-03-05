@@ -3,7 +3,7 @@
 
 - [x] Console App
 
-- [x] Ado.Net (CRUD)
+- [x] ADO.NET (CRUD)
 - [x] Dapper  (CRUD)
 - [x] EF Core (CRUD) [Code First, Database First]
 - [x] RepoDB
