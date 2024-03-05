@@ -6,7 +6,7 @@
 - [x] Ado.Net (CRUD)
 - [x] Dapper  (CRUD)
 - [x] EF Core (CRUD) [Code First, Database First]
-- RepoDB
+- [x] RepoDB
 
 - [x] Postman
 - [x] Asp.Net Core Web Api (Rest Api)
