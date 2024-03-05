@@ -63,21 +63,26 @@
     - [x] RestClient
     - [x] Refit
 
-- [x] Text Logging
-- [x] Db Logging
+- [x] Logging (Serilog, NLog, Log4net)
+    - [x] Text Logging
+    - [x] Db Logging
 
-- [x] Realtime Chat App using SignalR 
-- [x] Realtime Chart using SignalR 
+- [x] SignalR (WebSocket)
+    - [x] Realtime Chat App using SignalR 
+    - [x] Realtime Chart using SignalR
+
 - [x] UI Design
 
 - [x] ASP.NET Core Blazor
     - [x] Blazor Web Assembly CRUD with ASP.NET Core Web API using HttpClient
     - [x] Blazor Server CRUD with EF Core
 
-- [x] Deploy WASM
-- [x] Deploy on IIS
+- [x] Publish and deploy the app
+    - [x] Deploy Blazor Web Assembly
+    - [x] Deploy on IIS
+    - [x] Deploy .NET 8 ASP.NET Core Blazor Web Assembly on Vercel, Netlify
 
-- [x] Middleware For MVC
+- [x] Middleware (ASP.NET Core MVC/API)
 
 - [x] ASP.NET Core + GraphQL
 - [x] ASP.NET Core + gRPC
