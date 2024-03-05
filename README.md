@@ -5,7 +5,7 @@
 
 - [x] Ado.Net (CRUD)
 - [x] Dapper  (CRUD)
-- [x] EF Entity Framework (Code First => Create Table, Database First => use in Code) (CRUD)
+- [x] EF Core (CRUD) [Code First, Database First]
 - RepoDB
 
 - [x] Postman
@@ -21,10 +21,10 @@
 
 - [x] Burma Project Ideas(Bird)
 
-- [x] html, css, javascript
-- [x] bootstrap
-- [x] jquery
-- [x] jquery plugins
+- [x] Html, Css, JavaScript, Bootstrap, jQuery
+    - [x] Local Storage / Session Storage CRUD
+
+- [x] jQuery Plugins
     - [x] sweetalert https://sweetalert2.github.io/
     - [x] notiflix https://notiflix.github.io/ Notify Report Confirm Loading Block
     - [x] datatable https://datatables.net/examples/index https://datatables.net/ https://datatables.net/download/
