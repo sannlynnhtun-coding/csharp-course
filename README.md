@@ -9,10 +9,13 @@
 - [x] RepoDB
 
 - [x] Postman
+	- [x] GET, POST, PUT, PATCH, DELETE
+	- [x] Export, Import, Use Variable in Postman
+	
 - [x] Asp.Net Core Web Api (Rest Api)
     - [x] EF
-    - Dapper
-    - Ado.Net
+    - [x] Dapper
+    - [x] Ado.Net
     
 - [x] Console App connect with ASP.NET Core Web API
     - [x] HttpClient
@@ -33,10 +36,10 @@
     - radio checkbox https://bantikyan.github.io/icheck-bootstrap/ https://cdnjs.com/libraries/icheck-bootstrap https://github.com/bantikyan/icheck-bootstrap https://penguin-arts.com/how-to-check-if-a-checkbox-is-checked-using-icheck-library/
     - toast https://apvarun.github.io/toastify-js/# https://github.com/apvarun/toastify-js/blob/master/README.md
 
-- Asp.Net Core MVC (submit, ajax)
-    - EF 
-    - Ado.Net
-    - Dapper
+- [x] ASP.NET Core MVC (submit, ajax)
+    - [x] EF 
+    - [x] Ado.Net
+    - [x] Dapper
     
 - [x] Charts
   - [x] ApexChart
@@ -44,25 +47,25 @@
   - [x] HighCharts
   - [x] CanvasJS 
 
-- Api Call [MVC]
-    - HttpClient
-    - RestClient
-    - Refit
+- [x] ASP.NET Core MVC [Frontend Only] with ASP.NET Core Web API using HttpClient, RestSharp, Refit
+    - [x] HttpClient
+    - [x] RestClient
+    - [x] Refit
 
-- Minimal Api
-- Text Logging
-- Db Logging
+- [x] Minimal Api
+- [x] Text Logging
+- [x] Db Logging
 
 - [x] Realtime Chat App using SignalR 
 - [x] Realtime Chart using SignalR 
-- UI Design
-- Blazor CRUD [Server, WASM]
-- Deploy WASM
-- Deploy on IIS
+- [x] UI Design
+- [x] Blazor CRUD [Server, WASM]
+- [x] Deploy WASM
+- [x] Deploy on IIS
 
-- Middleware For MVC
+- [x] Middleware For MVC
 
-- [x] GraphQL
-- gRPC
+- [x] ASP.NET Core + GraphQL
+- [x] ASP.NET Core + gRPC
 
   
