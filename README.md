@@ -12,17 +12,18 @@
 	- [x] GET, POST, PUT, PATCH, DELETE
 	- [x] Export, Import, Use Variable in Postman
 	
-- [x] Asp.Net Core Web Api (Rest Api)
+- [x] Asp.Net Core Web API (REST API / RESTful API)
     - [x] EF
     - [x] Dapper
     - [x] Ado.Net
+    - [x] Minimal Api
     
 - [x] Console App connect with ASP.NET Core Web API
     - [x] HttpClient
     - [x] RestClient
     - [x] Refit
 
-- [x] Burma Project Ideas(Bird)
+- [x] [Burma Project Ideas](https://github.com/sannlynnhtun-coding/burma-project-ideas)
 
 - [x] Html, Css, JavaScript, Bootstrap, jQuery
     - [x] Local Storage / Session Storage CRUD
@@ -62,14 +63,17 @@
     - [x] RestClient
     - [x] Refit
 
-- [x] Minimal Api
 - [x] Text Logging
 - [x] Db Logging
 
 - [x] Realtime Chat App using SignalR 
 - [x] Realtime Chart using SignalR 
 - [x] UI Design
-- [x] Blazor CRUD [Server, WASM]
+
+- [x] ASP.NET Core Blazor
+    - [x] Blazor Web Assembly CRUD with ASP.NET Core Web API using HttpClient
+    - [x] Blazor Server CRUD with EF Core
+
 - [x] Deploy WASM
 - [x] Deploy on IIS
 
