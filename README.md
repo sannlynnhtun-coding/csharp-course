@@ -12,7 +12,7 @@
 	- [x] GET, POST, PUT, PATCH, DELETE
 	- [x] Export, Import, Use Variable in Postman
 	
-- [x] Asp.Net Core Web API (REST API / RESTful API)
+- [x] ASP.NET Core Web API (REST API / RESTful API)
     - [x] EF
     - [x] Dapper
     - [x] Ado.Net
