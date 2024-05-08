@@ -1,5 +1,7 @@
 # [C# Course](https://github.com/sannlynnhtun-coding/csharp-course/wiki)
 
+![C# vs .NET](csharp-vs-dotnet.png)
+
 
 - [x] Console App
 
