@@ -18,9 +18,9 @@ Coming soon...
 
 - [x] Console App
 
-- [x] ADO.NET (CRUD)
-- [x] Dapper  (CRUD)
-- [x] EF Core (CRUD) [Code First, Database First]
+- [x] [ADO.NET (CRUD)](https://github.com/sannlynnhtun-coding/csharp-course/wiki/Console-App-using-ADO.NET)
+- [x] [Dapper  (CRUD)](https://github.com/sannlynnhtun-coding/csharp-course/wiki/Console-App-using-Dapper)
+- [x] [EF Core (CRUD) [Code First, Database First]](https://github.com/sannlynnhtun-coding/csharp-course/wiki/Console-App-using-EF-Core)
 - [x] RepoDB
 
 - [x] Postman
