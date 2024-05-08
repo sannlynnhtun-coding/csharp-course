@@ -1,5 +1,8 @@
 # [C# Course](https://github.com/sannlynnhtun-coding/csharp-course/wiki)
 
+.NET Training Batch 3 Telegram Channel 
+https://t.me/+SnO5wIMP8QRhYmZl
+
 ![C# vs .NET](csharp-vs-dotnet.png)
 
 
