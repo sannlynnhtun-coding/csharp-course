@@ -1,13 +1,15 @@
 # [C# Course](https://github.com/sannlynnhtun-coding/csharp-course/wiki)
 -----------------
 
-.NET Training Batch 3 Telegram Channel 
+.NET Training Batch 3 Telegram Channel (Free)
 <br />
 https://t.me/+SnO5wIMP8QRhYmZl
 
 -----------------
 
-.NET Training Batch 4 Telegram Channel (Coming soon...)
+.NET Training Batch 4 Telegram Channel (Free)
+<br />
+Coming soon...
 
 -----------------
 
