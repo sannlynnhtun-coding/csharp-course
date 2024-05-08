@@ -104,7 +104,7 @@ Coming soon...
 
 Self Study
 
-- [x] ASP.NET Core + GraphQL
+- [x] [ASP.NET Core + GraphQL](https://github.com/sannlynnhtun-coding/SLHDotNetCore.GraphqlExample)
 - [x] ASP.NET Core + gRPC
 - [x] [C# Examples](https://github.com/sannlynnhtun-coding/csharp-examples)
 
