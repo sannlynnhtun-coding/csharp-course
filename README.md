@@ -39,6 +39,7 @@ Coming soon...
     - [x] Refit
 
 - [x] [Burma Project Ideas](https://github.com/sannlynnhtun-coding/burma-project-ideas)
+- [x] [One Project - One Month](https://github.com/sannlynnhtun-coding/one-project-one-month)
 
 - [x] Html, Css, JavaScript, Bootstrap, jQuery
     - [x] Local Storage / Session Storage CRUD
