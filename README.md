@@ -16,6 +16,7 @@ Coming soon...
 ![C# vs .NET](csharp-vs-dotnet.png)
 
 
+## Course Outline
 - [x] Console App
 
 - [x] [ADO.NET (CRUD)](https://github.com/sannlynnhtun-coding/csharp-course/wiki/Console-App-using-ADO.NET)
