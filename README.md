@@ -8,7 +8,7 @@
 <br />
 https://t.me/+SnO5wIMP8QRhYmZl
 
-[You can see the course outline.](#.net-training-batch-3-course-outline)
+[You can see the course outline.](#batch-3-course-outline)
 
 -----------------
 
@@ -116,7 +116,7 @@ Self Study
 
 ----------------------------
 
-## .NET Training Batch 3 Course Outline
+## Batch 3 Course Outline
 
 Visual Studio 2022 Installation
 https://t.me/c/2105297398/59
