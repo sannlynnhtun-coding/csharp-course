@@ -1,4 +1,7 @@
 # [C# Course](https://github.com/sannlynnhtun-coding/csharp-course/wiki)
+
+> Awesome Things You Can Build With C# https://youtu.be/_nd093DZC8Y
+
 -----------------
 
 .NET Training Batch 3 Telegram Channel (Free)
