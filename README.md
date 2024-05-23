@@ -8,6 +8,8 @@
 <br />
 https://t.me/+SnO5wIMP8QRhYmZl
 
+[You can see the course outline.](#.net-training-batch-3-course-outline)
+
 -----------------
 
 .NET Training Batch 4 Telegram Channel (Free)
@@ -113,6 +115,8 @@ Self Study
 - [x] [C# Examples](https://github.com/sannlynnhtun-coding/csharp-examples)
 
 ----------------------------
+
+## .NET Training Batch 3 Course Outline
 
 Visual Studio 2022 Installation
 https://t.me/c/2105297398/59
