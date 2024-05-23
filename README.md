@@ -2,6 +2,8 @@
 
 > Awesome Things You Can Build With C# https://youtu.be/_nd093DZC8Y
 
+![C# .NET Training](csharp-dotnet-training.png)
+
 -----------------
 
 .NET Training Batch 3 Telegram Channel (Free)
