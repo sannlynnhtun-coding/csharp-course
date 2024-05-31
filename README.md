@@ -1,5 +1,14 @@
 # [C# Course](https://github.com/sannlynnhtun-coding/csharp-course/wiki)
 
+The C# programming language allows you to build many types of applications, like:
+
+- Business applications to capture, analyze, and process data
+- Dynamic web applications that can be accessed from a web browser
+- Games, both 2D and 3D
+- Financial and scientific applications
+- Cloud-based applications
+- Mobile applications
+
 > Awesome Things You Can Build With C# https://youtu.be/_nd093DZC8Y
 
 ![C# .NET Training](csharp-dotnet-training.png)
