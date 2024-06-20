@@ -11,6 +11,10 @@ The C# programming language allows you to build many types of applications, like
 
 > Awesome Things You Can Build With C# https://youtu.be/_nd093DZC8Y
 
+## Give a Star! :star:
+
+If you like or are using this project to learn or start your solution, please give it a star. Thanks!
+
 ![C# .NET Training](csharp-dotnet-training.png)
 
 -----------------
