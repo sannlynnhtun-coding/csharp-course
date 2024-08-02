@@ -131,6 +131,14 @@ Self Study
 
 ----------------------------
 
+## Batch 4 Course Outline
+
+> 1. [Microsoft SQL Server Installation](https://docs.google.com/document/d/1RExSyOKaXB5hTbHZAz64tGJHv4cNz8ktvPcIn6iV298/edit?usp=sharing)
+> 2. [Visual Studio 2022 Installation](https://docs.google.com/document/d/1EJUY9R0_s8BekTq_vN9N7OLmla71kSdG3AA7TTXkm6A/edit?usp=sharing)
+
+
+----------------------------
+
 ## Batch 3 Course Outline
 
 Visual Studio 2022 Installation
