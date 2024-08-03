@@ -152,7 +152,7 @@ Self Study
 > 17. [ASP.NET Core Web API using Dapper CRUD](https://t.me/dot_net_training_batch_4/59)
 > 18. [ASP.NET Core Web API using ADO.NET CRUD](https://t.me/dot_net_training_batch_4/65)
 > 19. [Dapper Custom Service](https://t.me/dot_net_training_batch_4/66)
-> 20. [Ado.Net Custom Service](https://t.me/dot_net_training_batch_4/67)
+> 20. [ADO.NET Custom Service](https://t.me/dot_net_training_batch_4/67)
 > 21. [Layered (N-Layer) Architecture](https://t.me/dot_net_training_batch_4/73)
 > 22. [Burma Project Idea Discussion For API](https://t.me/dot_net_training_batch_4/74)
 > 23. [Burma Project Idea JSON data to API](https://t.me/dot_net_training_batch_4/75)
@@ -163,7 +163,7 @@ Self Study
 > 28. [Pizza API using Query with Dapper Service](https://t.me/dot_net_training_batch_4/83)
 > 29. [Console App CRUD with API using Refit](https://t.me/dot_net_training_batch_4/84)
 > 30. [Windows Forms Intro](https://t.me/dot_net_training_batch_4/88)
-> 31. [.net framework vs .net core vs .net](https://t.me/dot_net_training_batch_4/89)
+> 31. [.NET Framework vs .NET Core vs .NET](https://t.me/dot_net_training_batch_4/89)
 > 32. [Windows Forms - Hello World](https://t.me/dot_net_training_batch_4/90)
 > 33. [Windows Forms Blog - Create](https://t.me/dot_net_training_batch_4/91)
 > 34. [Windows Forms Blog - List](https://t.me/dot_net_training_batch_4/94)
@@ -183,6 +183,13 @@ Self Study
 > 48. [ASP.NET Core Web MVC Blog Edit Update Delete](https://t.me/dot_net_training_batch_4/112)
 > 49. [AsNoTracking](https://t.me/dot_net_training_batch_4/113)
 > 50. [ASP.NET Core MVC Ajax](https://t.me/dot_net_training_batch_4/115)
+> 51. [ASP.NET Core Apex Chart - Pie Chart](https://t.me/dot_net_training_batch_4/116)
+> 52. [ASP.NET Core Chart.js, HighCharts, CanvasJs, Text Log](https://t.me/dot_net_training_batch_4/117)
+> 53. [Db Log Part - 1](https://t.me/dot_net_training_batch_4/118)
+> 54. [Db Log Part - 2](https://t.me/dot_net_training_batch_4/119)
+> 55. [Realtime Chat using SignalR Part - 1](https://t.me/dot_net_training_batch_4/120)
+> 56. [Realtime Chat using SignalR Part - 2](https://t.me/dot_net_training_batch_4/121)
+> 57. [Realtime Chart using SignalR](https://t.me/dot_net_training_batch_4/122)
 
 
 ----------------------------
