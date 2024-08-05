@@ -174,7 +174,7 @@ Self Study
 > 39. [JavaScript Blog CRUD](https://t.me/dot_net_training_batch_4/99)
 > 40. [Html + JavaScript Blog CRUD](https://t.me/dot_net_training_batch_4/100)
 > 41. [jQuery Plugin (SweetAlert, Notiflix)](https://t.me/dot_net_training_batch_4/103)
-> 42. [Query Plugins - DataTable, Date Picker, Ladda Button, iCheckbox, Custom Confirm Message](https://t.me/dot_net_training_batch_4/104)
+> 42. [jQuery Plugins - DataTable, Date Picker, Ladda Button, iCheckbox, Custom Confirm Message](https://t.me/dot_net_training_batch_4/104)
 > 43. [Dependency Injection](https://t.me/dot_net_training_batch_4/106)
 > 44. [Dependency Injection - Code](https://t.me/dot_net_training_batch_4/107)
 > 45. [ASP.NET Core Minimal API CRUD](https://t.me/dot_net_training_batch_4/109)
