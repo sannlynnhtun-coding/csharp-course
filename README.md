@@ -29,7 +29,9 @@ https://t.me/+SnO5wIMP8QRhYmZl
 
 .NET Training Batch 4 Telegram Channel (Free)
 <br />
-Coming soon...
+https://t.me/dot_net_training_batch_4
+
+[You can see the course outline.](#batch-4-course-outline)
 
 -----------------
 
