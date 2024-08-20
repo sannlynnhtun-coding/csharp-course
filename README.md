@@ -35,7 +35,16 @@ https://t.me/dot_net_training_batch_4
 
 -----------------
 
-![C# vs .NET](csharp-vs-dotnet.png)
+| C# | .NET |
+|----|------|
+| C# is a programming language that is primarily used for building .NET applications. | .NET is a framework for building different kinds of programming applications. |
+| Since it has similar syntax and concepts with Java, JavaScript, and it is easier to learn C#. | Open-source many languages (C#, F#, VB.NET), libraries, ecosystems with multiple platforms (Heroku, IBM Bluemix) are available for your use. |
+| Being Microsoft products, benefit from extensive support from the MSDN community | It is harder to learn since it has a broad selection of various types of technologies to have as background and lots of community support. |
+| Provides the syntax and rules for coding | Does not also have support from the MSDN community. It also provides the environment for executing applications written in C#, or other compatible languages |
+| Used to develop cross-platform desktop, web frameworks, service application, and statement keyword. | It's a framework with an extensive library of pre-existing classes ready to be utilized right away. |
+| In C#, the Common Language Runtime (CLR) ensures complete applications. | .NET framework includes runtime environment (CLR) and a class library that developers use as code libraries into their applications. |
+| Supports multi-paradigm programming (OOP after encapsulation inheritance language including LEC & function). | This supports a wide range of programming paradigms, especially with its IL through the combination of compilation and interpretation processes. .NET uses Framework # emphasizing practicality in its programming languages like F# for building efficient programs within this structure system. |
+
 
 
 ## Course Outline
