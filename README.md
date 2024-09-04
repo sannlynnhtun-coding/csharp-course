@@ -201,7 +201,18 @@ Self Study
 > 55. [Realtime Chat using SignalR Part - 1](https://t.me/dot_net_training_batch_4/120)
 > 56. [Realtime Chat using SignalR Part - 2](https://t.me/dot_net_training_batch_4/121)
 > 57. [Realtime Chart using SignalR](https://t.me/dot_net_training_batch_4/122)
-
+> 58. [EF Core Database First](https://t.me/dot_net_training_batch_4/123)
+> 59. [ASP.NET Core MVC + UI Design (Admin LTE)](https://t.me/dot_net_training_batch_4/124)
+> 60. [Blazor Server, Blazor Web Assembly](https://t.me/dot_net_training_batch_4/125)
+> 61. [About Blazor Web Assembly Project](https://t.me/dot_net_training_batch_4/126)
+> 62. [ASP.NET Core MVC Ajax - V2](https://t.me/dot_net_training_batch_4/127)
+> 63. [ASP.NET Core Blazor Web Assembly with API (GET, POST)](https://t.me/dot_net_training_batch_4/128)
+> 64. [ASP.NET Core Blazor Web Assembly with API (GET, PUT, DELETE)](https://t.me/dot_net_training_batch_4/129)
+> 65. [ASP.NET Core Blazor Web Assembly with API (GET By ID)](https://t.me/dot_net_training_batch_4/130)
+> 66. [ASP.NET Core Blazor Server CRUD](https://t.me/dot_net_training_batch_4/131)
+> 67. [Deploy ASP.NET Core](https://t.me/dot_net_training_batch_4/132)
+> 68. [Session, Middleware](https://t.me/dot_net_training_batch_4/133)
+> 69. [Blog Project](https://t.me/dot_net_training_batch_4/134)
 
 ----------------------------
 
