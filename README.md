@@ -21,7 +21,7 @@ If you like this repository to learn or start your solution, please give it a st
 
 .NET Training Batch 3 Telegram Channel (Free)
 <br />
-https://t.me/+SnO5wIMP8QRhYmZl
+https://t.me/dot_net_training_batch_3
 
 [You can see the course outline.](#batch-3-course-outline)
 
